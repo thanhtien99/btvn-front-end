@@ -1,0 +1,35 @@
+.myName{
+    float: left;
+    text-align: center; 
+}
+.img{
+   
+    border-radius: 50%; 
+    border: 5px solid #424eed; 
+    height: 400px; margin: 20px; 
+    width: 400px;
+}
+.introd{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+#hr{
+    border : 2px solid #424eed ;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  
+  .text {
+    background-color: rgba(255, 255, 255, 0.438);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    font-size: 24px;
+    text-align: center;
+  }
